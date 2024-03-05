@@ -1,0 +1,88 @@
+.body{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    text-shadow: 2px 2px 2px grey;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.calc-body{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 242);
+    height: 250px;
+    width: 170px;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid ;
+}
+.keys-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.screen-display{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid black;
+    height: 60px;
+    width: 150px;
+    background-color:white;
+    color: black;
+}
+#workings{
+    flex: 1;
+    text-align: right;
+}
+#result{
+    flex: 1;
+    text-align: right;
+}
+.sec{
+    height: 25px;
+    width: 150px;
+    display: flex;
+    margin-bottom: 5px;
+    justify-content: space-between;
+}
+.spec-num{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px grey;
+    display: flex;
+    width: 60px;
+    margin: 0%;
+    padding-left: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+.spec-num:hover{
+    background-color: black;
+    color: white;
+    width: 62px;
+}
+.num{
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px grey;
+    display: flex;
+    width: 28px;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.num:hover{
+    background-color: black;
+    color: white;
+    width: 30px;
+}
+.sign{
+    color: orangered;
+}
+.sign:hover{
+    background-color: orangered;
+    color: white;
+}
